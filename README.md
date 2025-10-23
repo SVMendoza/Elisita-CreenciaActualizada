@@ -22,30 +22,41 @@ La aplicación Elisita-CreenciaActualizada está configurada para ejecutarse den
 1. Clonar el repositorio:
 
 git clone https://github.com/SVMendoza/Elisita-CreenciaActualizada
+
 cd elisita
 
 2. Construir la imagen y ejecutar con Docker:
 
 docker build -t elisita
+
 docker run -d -p 3838:3838 elisita
 
-3. Ejecutar 
+3. Ejecutar
+   
 http://localhost:3838
 
-## Uso 
-- Ingreso de información de persona(s) experta(s)
-![Ingreso de información de persona(s) experta(s)]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash1.png)
-![Visualización de la distribución]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash2.png)
-![Resultados elicitación]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash3.png)
-![Cargar datos y actualizar distribucíon de verosimilitud]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash4.png)
-![Configurar para actualizar la creencia]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash5.png)
 
-![Resultados gráfico]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash6.png)
-![Estimación]([https://www.miapp.com/](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash7.png)
+## Uso 
+
+  
+![Ingreso de información de persona(s) experta(s)](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash1.png)
+
+![Visualización de la distribución](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash2.png)
+
+![Resultados elicitación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash3.png)
+
+![Cargar datos y actualizar distribucíon de verosimilitud](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash4.png)
+
+![Configurar para actualizar la creencia](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash5.png)
+
+![Resultados gráfico](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash6.png)
+
+![Estimación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash7.png)
 
 
 ### Créditos
 Idea y desarrollo: Sergio Jose Vilchez-Mendoza
+
 Sugerencias de código: Deepseek y ChatGPT (OpenAI)
 
 ## Licencia
