@@ -38,19 +38,19 @@ http://localhost:3838
 ## Uso 
 
   
-![Ingreso de información de persona(s) experta(s)](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash1.png)
+![Ingreso de información de persona(s) experta(s)](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash1.png)
 
-![Visualización de la distribución](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash2.png)
+![Visualización de la distribución](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash2.png)
 
-![Resultados elicitación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash3.png)
+![Resultados elicitación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash3.png)
 
-![Cargar datos y actualizar distribucíon de verosimilitud](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash4.png)
+![Cargar datos y actualizar distribucíon de verosimilitud](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenesdash4.png)
 
-![Configurar para actualizar la creencia](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash5.png)
+![Configurar para actualizar la creencia]https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash5.png)
 
-![Resultados gráfico](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash6.png)
+![Resultados gráfico](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash6.png)
 
-![Estimación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/imagenes/dash7.png)
+![Estimación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash7.png)
 
 
 ### Créditos
