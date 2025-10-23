@@ -3,7 +3,6 @@
 **Elisita-CreenciaActualizada** es una aplicación Shiny que facilita formalizar el conocimiento de persona experta en **distribuciones probabilísticas**. Combina las opiniones de persona experta **(consenso)** y **actualizar sus creencias** después de observar los **datos** mediante **métodos bayesianos** utilizando RStan.
 
 
----
 ## Descripción
 
 Permite:
@@ -14,7 +13,7 @@ Permite:
 4. Combina las opiniones de múltiples personas expertas en una distribución agregada (consenso).  
 5. Combina la distribución de las persona experta (prior) con datos observados (verosimilitud) usando **Stan/MCMC** para actualizar sus creencias.  
 
----
+
 ## Instalación
 
 La aplicación Elisita-CreenciaActualizada está configurada para ejecutarse dentro de contenedores Docker.
