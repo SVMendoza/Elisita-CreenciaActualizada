@@ -1,0 +1,53 @@
+FROM rocker/shiny:4.3.0
+
+LABEL maintainer="svilchez@catie.ac.cr"
+LABEL description="Imagen Docker para app Shiny de elicitación de experto y actualización de creencias utilizando rstan (MCMC)"
+
+
+RUN apt-get update && apt-get install -y \
+build-essential \
+gfortran \
+libssl-dev \
+libcurl4-openssl-dev \
+libxml2-dev \
+libgit2-dev \
+libfontconfig1-dev \
+libv8-dev \
+libclang-dev \
+libx11-dev \
+libcairo2-dev \
+locales \
+&& rm -rf /var/lib/apt/lists/*
+  
+
+RUN locale-gen es_ES.UTF-8
+ENV LANG=es_ES.UTF-8
+ENV LC_ALL=es_ES.UTF-8
+
+
+RUN mkdir -p ~/.R && \
+echo "CXX14=g++" >> ~/.R/Makevars && \
+echo "CXX14FLAGS=-O3 -march=native -mtune=native -fPIC" >> ~/.R/Makevars
+
+
+RUN R -e "install.packages('rstan', repos='https://cloud.r-project.org')"
+
+
+RUN R -e "install.packages(c(
+  'shiny', 'shinythemes', 'shinyjs', 'shinyWidgets', 'shinyalert', 'shinycssloaders',\
+  'DT', 'purrr', 'data.table', 'dplyr', 'stats', 'R6',\
+  'ggplot2', 'gridExtra', 'gridGraphics', 'plotly'\
+), dependencies = TRUE, repos='https://cloud.r-project.org/')"
+
+RUN mkdir -p /srv/shiny-server/ExpertoElicita
+WORKDIR /srv/shiny-server/ExpertoElicita
+
+COPY . /srv/shiny-server/ExpertoElicita
+
+RUN R -e "Sys.setlocale('LC_ALL', 'es_ES.UTF-8')"
+RUN R -e "rstan::rstan_options(auto_write = TRUE); options(mc.cores = parallel::detectCores())"
+RUN R -e "options(shiny.maxRequestSize = 50*1024^2, encoding = 'UTF-8')"
+
+EXPOSE 3838
+
+CMD ["/usr/bin/shiny-server"]
