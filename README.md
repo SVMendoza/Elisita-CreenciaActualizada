@@ -54,7 +54,7 @@ http://localhost:3838
 
 
 ### Créditos
-Idea y desarrollo: Sergio Jose Vilchez-Mendoza
+Idea y desarrollo: Sergio J. Vilchez-Mendoza
 
 Sugerencias de código: Deepseek y ChatGPT (OpenAI)
 
