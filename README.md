@@ -38,19 +38,19 @@ http://localhost:3838
 ## Uso 
 
   
-![Ingreso de información de persona(s) experta(s)](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash1.png)
+![Ingreso de información de persona(s) experta(s)](/imagenes/dash1.png)
 
-![Visualización de la distribución](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash2.png)
+![Visualización de la distribución](/imagenes/dash2.png)
 
-![Resultados elicitación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash3.png)
+![Resultados elicitación](/imagenes/dash3.png)
 
-![Cargar datos y actualizar distribucíon de verosimilitud](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenesdash4.png)
+![Cargar datos y actualizar distribucíon de verosimilitud](/imagenesdash4.png)
 
-![Configurar para actualizar la creencia]https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash5.png)
+![Configurar para actualizar la creencia](/imagenes/dash5.png)
 
-![Resultados gráfico](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash6.png)
+![Resultados gráfico](/imagenes/dash6.png)
 
-![Estimación](https://github.com/SVMendoza/Elisita-CreenciaActualizada/tree/main/imagenes/dash7.png)
+![Estimación](/imagenes/dash7.png)
 
 
 ### Créditos
