@@ -60,3 +60,6 @@ Sugerencias de código: Deepseek y ChatGPT (OpenAI)
 
 ## Licencia
 Este proyecto está licenciado bajo MIT License. Ver archivo LICENSE para detalles.
+
+## Por favor citá: 
+Sergio J. Vilchez Mendoza. (2025). SVMendoza/Elisita-CreenciaActualizada: https://github.com/SVMendoza/Elisita-CreenciaActualizada/ (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17428826
